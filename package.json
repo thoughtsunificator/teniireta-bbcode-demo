@@ -23,11 +23,10 @@
 	"dependencies": {
 		"@teniireta/bbcode-template": "^0.0.3",
 		"@teniireta/toolbar": "^0.0.8",
-		"@thoughtsunificator/bbcode-parser-template": "^1.0.5",
+		"@thoughtsunificator/bbcode-parser": "^1.0.7",
 		"@thoughtsunificator/bbcode-parser-template-example": "^0.0.5",
-		"bbcode-parser": "^1.0.10",
 		"css-generics": "^1.0.8",
 		"domodel": "^1.0.46",
-		"teniireta": "^0.0.7"
+		"teniireta": "^0.0.8"
 	}
 }
