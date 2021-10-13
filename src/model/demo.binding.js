@@ -7,6 +7,8 @@ import RawPreviewModel from "./raw-preview.js"
 import RawPreviewBinding from "./raw-preview.binding.js"
 import ToolbarBinding from "./toolbar.binding.js"
 
+import BBCODE_SAMPLE from "data/bbcode-sample.js"
+
 
 /**
  * @global
