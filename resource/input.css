@@ -1,0 +1,30 @@
+.quotetext {
+	background-color: white;
+	border: 1px solid #ebebeb;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.codetext {
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+body {
+	white-space: break-spaces;
+	padding: 5px;
+}
+
+ul {
+	margin-left: 16px;
+}
+
+li {
+	white-space: nowrap;
+}
