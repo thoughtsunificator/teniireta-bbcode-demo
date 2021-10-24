@@ -8,7 +8,7 @@ export default class extends Binding {
 
 		let html = true
 
-		this.listen(editor, "input changed", data => {
+		this.listen(editor, "inputChanged", data => {
 			if(html) {
 				this.root.textContent = data.raw
 			} else {
@@ -16,12 +16,12 @@ export default class extends Binding {
 			}
 		})
 
-		this.listen(editor, "mode set html", () => {
+		this.listen(editor, "setHTMLMode", () => {
 			html = true
 			this.root.textContent = template.toRaw(this.root.innerHTML)
 		})
 
-		this.listen(editor, "mode set raw", () => {
+		this.listen(editor, "setRawMode", () => {
 			html = false
 			this.root.innerHTML = template.toHTML(this.root.textContent)
 		})

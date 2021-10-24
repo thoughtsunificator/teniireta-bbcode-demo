@@ -31,7 +31,7 @@ class DemoBinding extends Binding {
 			binding: new EditorBinding({ editor, inputStylesheetURL: `./resource/input.css`, template })
 		})
 
-		editor.emit("raw set", BBCODE_SAMPLE)
+		editor.listen("inputLoaded", () => editor.emit("setRaw", BBCODE_SAMPLE))
 
 	}
 
