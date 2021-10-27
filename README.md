@@ -1,3 +1,3 @@
 # teniireta-bbcode-demo
 
-Demo for [teniireta](https://github.com/thoughtsunificator/teniireta)
+BBcode demo for [teniireta](https://github.com/thoughtsunificator/teniireta)
