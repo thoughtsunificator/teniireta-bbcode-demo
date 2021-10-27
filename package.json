@@ -1,9 +1,17 @@
 {
-	"name": "teniireta-demo",
+	"name": "teniireta-bbcode-demo",
 	"scripts": {
 		"start": "rollup --config rollup.config.dev.js --watch",
 		"build": "rollup --config rollup.config.prod.js"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thoughtsunificator/teniireta-bbcode-demo.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/teniireta-bbcode-demo/issues"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
 	"devDependencies": {
 		"@rollup/plugin-alias": "^3.1.2",
 		"@rollup/plugin-node-resolve": "^13.0.0",
